@@ -1,6 +1,6 @@
 .App {
   height: 100vh;
-  background-color: #0d1116;
+  background-color: #0d1116; 
   text-align: center;
   color: white;
 }
@@ -145,6 +145,10 @@ header{
   justify-content: center;
   align-items: center;
   padding-bottom: 30px;
+}
+
+.footer-text:hover {
+  color: #00BCE3;
 }
 
 .twitter-logo {
