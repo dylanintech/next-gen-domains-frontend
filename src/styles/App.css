@@ -11,7 +11,8 @@ p {
 
 .container {
   height: 100%;
-  background-color: #181818;
+  background: -webkit-linear-gradient(left, rgb(17, 24, 39), rgb(75, 85, 99));
+  animation: gradient-animation 4s ease infinite;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -104,7 +105,7 @@ header{
 }
 
 .mint-button {
-  background: -webkit-linear-gradient(left, #a200d6, #ff6fdf);
+  background: -webkit-linear-gradient(left, #C33764, #1D2671);
   font-size: 18px;
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
