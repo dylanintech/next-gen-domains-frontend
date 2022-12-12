@@ -6,7 +6,7 @@ import { ethers } from 'ethers';
 import contractAbi from '../src/utils/contractABI.json';
 import './styles/App.css';
 import { networks } from '../src/utils/networks';
-import { set } from '@project-serum/anchor/dist/cjs/utils/features';
+// import { set } from '@project-serum/anchor/dist/cjs/utils/features';
 
 // Constants
 const TWITTER_HANDLE = 'dxlantxch';
